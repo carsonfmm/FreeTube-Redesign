@@ -1,0 +1,35 @@
+
+
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+
+
+
+.switchColumn {
+  padding-left: 0vw;
+  padding-right: 0vw;
+}
+
+.manage-subs {
+  width: 17vw;
+}
+
+.export-settings-btn {
+  width: 17vw;
+}
+
+.import-settings-btn {
+  width: 17vw;
+}
+
+.export-flex-box {
+  padding-top: 1.5vh;
+}
+
+.import-flex-box {
+  padding-top: 1.2vh;
+}

@@ -1,0 +1,570 @@
+/* eslint-disable quotes */
+/* eslint-disable no-var */
+/* eslint-disable no-console */
+import Vue from 'vue'
+import { mapActions } from 'vuex'
+import FtCard from '../ft-card/ft-card.vue'
+import FtButton from '../ft-button/ft-button.vue'
+import FtIconButton from '../ft-icon-button/ft-icon-button.vue'
+import FtShareButton from '../ft-share-button/ft-share-button.vue'
+import { MAIN_PROFILE_ID } from '../../../constants'
+import { formatNumber, openExternalLink, showToast } from '../../helpers/utils'
+
+
+//The required code for casting a video to a chromecast
+const ChromecastAPI = require('chromecast-api')
+const client = new ChromecastAPI()
+function chooseCast (device_name, videoURL){
+
+  //Casts the video by sending the url (videoURL) to the selected chromecast (device_name)
+  client.on('device', function (device) {
+    if (device.friendlyName === device_name){
+      device.play(videoURL, function (err) {
+        if (!err) console.log('Playing in your chromecast')
+      })
+    }
+  })
+}
+
+
+export default Vue.extend({
+  name: 'WatchVideoInfo',
+  components: {
+    'ft-card': FtCard,
+    'ft-button': FtButton,
+    'ft-icon-button': FtIconButton,
+    'ft-share-button': FtShareButton
+  },
+  props: {
+    id: {
+      type: String,
+      required: true
+    },
+    title: {
+      type: String,
+      required: true
+    },
+    channelId: {
+      type: String,
+      required: true
+    },
+    channelName: {
+      type: String,
+      required: true
+    },
+    channelThumbnail: {
+      type: String,
+      required: true
+    },
+    published: {
+      type: Number,
+      required: true
+    },
+    viewCount: {
+      type: Number,
+      required: true
+    },
+    subscriptionCountText: {
+      type: String,
+      required: true
+    },
+    likeCount: {
+      type: Number,
+      default: 0
+    },
+    dislikeCount: {
+      type: Number,
+      default: 0
+    },
+    getTimestamp: {
+      type: Function,
+      required: true
+    },
+    isLive: {
+      type: Boolean,
+      required: false
+    },
+    isLiveContent: {
+      type: Boolean,
+      required: true
+    },
+    isUpcoming: {
+      type: Boolean,
+      required: true
+    },
+    downloadLinks: {
+      type: Array,
+      required: true
+    },
+    watchingPlaylist: {
+      type: Boolean,
+      required: true
+    },
+    playlistId: {
+      type: String,
+      default: null
+    },
+    getPlaylistIndex: {
+      type: Function,
+      required: true
+    },
+    getPlaylistReverse: {
+      type: Function,
+      required: true
+    },
+    getPlaylistShuffle: {
+      type: Function,
+      required: true
+    },
+    getPlaylistLoop: {
+      type: Function,
+      required: true
+    },
+    theatrePossible: {
+      type: Boolean,
+      required: true
+    },
+    lengthSeconds: {
+      type: Number,
+      required: true
+    },
+    videoThumbnail: {
+      type: String,
+      required: true
+    }
+  },
+  data: function () {
+    return {
+      formatTypeLabel: 'VIDEO FORMATS'
+    }
+  },
+  computed: {
+    currentInvidiousInstance: function () {
+      return this.$store.getters.getCurrentInvidiousInstance
+    },
+
+    hideSharingActions: function() {
+      return this.$store.getters.getHideSharingActions
+    },
+
+    hideUnsubscribeButton: function() {
+      return this.$store.getters.getHideUnsubscribeButton
+    },
+
+    currentLocale: function () {
+      return this.$i18n.locale.replace('_', '-')
+    },
+
+    profileList: function () {
+      return this.$store.getters.getProfileList
+    },
+
+    activeProfile: function () {
+      return this.$store.getters.getActiveProfile
+    },
+
+    hideRecommendedVideos: function () {
+      return this.$store.getters.getHideRecommendedVideos
+    },
+
+    hideLiveChat: function () {
+      return this.$store.getters.getHideLiveChat
+    },
+
+    hideVideoLikesAndDislikes: function () {
+      return this.$store.getters.getHideVideoLikesAndDislikes
+    },
+
+    hideVideoViews: function () {
+      return this.$store.getters.getHideVideoViews
+    },
+
+    favoritesPlaylist: function () {
+      return this.$store.getters.getFavorites
+    },
+
+    inFavoritesPlaylist: function () {
+      const index = this.favoritesPlaylist.videos.findIndex((video) => {
+        return video.videoId === this.id
+      })
+
+      return index !== -1
+    },
+
+    favoriteIconTheme: function () {
+      return this.inFavoritesPlaylist ? 'base favorite' : 'base'
+    },
+
+    downloadLinkOptions: function () {
+      return this.downloadLinks.map((download) => {
+        return {
+          label: download.label,
+          value: download.url
+        }
+      })
+    },
+
+    downloadBehavior: function () {
+      return this.$store.getters.getDownloadBehavior
+    },
+
+    formatTypeOptions: function () {
+      return [
+        {
+          label: this.$t('Change Format.Use Dash Formats').toUpperCase(),
+          value: 'dash'
+        },
+        {
+          label: this.$t('Change Format.Use Legacy Formats').toUpperCase(),
+          value: 'legacy'
+        },
+        {
+          label: this.$t('Change Format.Use Audio Formats').toUpperCase(),
+          value: 'audio'
+        }
+      ]
+    },
+
+    totalLikeCount: function () {
+      return this.likeCount + this.dislikeCount
+    },
+
+    parsedLikeCount: function () {
+      if (this.hideVideoLikesAndDislikes || this.likeCount === null) {
+        return null
+      }
+
+      return formatNumber(this.likeCount)
+    },
+
+    parsedDislikeCount: function () {
+      if (this.hideVideoLikesAndDislikes || this.dislikeCount === null) {
+        return null
+      }
+
+      return formatNumber(this.dislikeCount)
+    },
+
+    likePercentageRatio: function () {
+      return parseInt(this.likeCount / this.totalLikeCount * 100)
+    },
+
+    parsedViewCount: function () {
+      if (this.hideVideoViews) {
+        return null
+      }
+      return formatNumber(this.viewCount) + ` ${this.$t('Video.Views').toLowerCase()}`
+    },
+
+    isSubscribed: function () {
+      const subIndex = this.activeProfile.subscriptions.findIndex((channel) => {
+        return channel.id === this.channelId
+      })
+
+      if (subIndex === -1) {
+        return false
+      } else {
+        return true
+      }
+    },
+
+    subscribedText: function () {
+      if (this.isSubscribed) {
+        return `${this.$t('Channel.Unsubscribe').toUpperCase()} ${this.subscriptionCountText}`
+      } else {
+        return `${this.$t('Channel.Subscribe').toUpperCase()} ${this.subscriptionCountText}`
+      }
+    },
+
+    dateString() {
+      const date = new Date(this.published)
+      const localeDateString = new Intl.DateTimeFormat([this.currentLocale, 'en'], { dateStyle: 'medium' }).format(date)
+      // replace spaces with no break spaces to make the date act as a single entity while wrapping
+      return `${localeDateString}`.replaceAll(' ', '\u00A0')
+    },
+
+    publishedString() {
+      if (this.isLiveContent && this.isLive) {
+        return this.$t('Video.Started streaming on')
+      } else if (this.isLiveContent && !this.isLive) {
+        return this.$t('Video.Streamed on')
+      } else {
+        return this.$t('Video.Published on')
+      }
+    },
+
+    externalPlayer: function () {
+      return this.$store.getters.getExternalPlayer
+    },
+
+    defaultPlayback: function () {
+      return this.$store.getters.getDefaultPlayback
+    }
+  },
+  mounted: function () {
+    if ('mediaSession' in navigator) {
+      navigator.mediaSession.metadata = new MediaMetadata({
+        title: this.title,
+        artist: this.channelName,
+        artwork: [
+          {
+            src: this.videoThumbnail,
+            sizes: '128x128',
+            type: 'image/png'
+          }
+        ]
+      })
+
+      this.$watch('$refs.downloadButton.dropdownShown', (dropdownShown) => {
+        this.$parent.infoAreaSticky = !dropdownShown
+
+        if (dropdownShown && window.innerWidth >= 901) {
+          // adds a slight delay so we know that the dropdown has shown up
+          // and won't mess up our scrolling
+          Promise.resolve().then(() => {
+            this.$parent.$refs.infoArea.scrollIntoView()
+          })
+        }
+      })
+    }
+  },
+  methods: {
+    handleExternalPlayer: function () {
+      this.$emit('pause-player')
+
+      this.openInExternalPlayer({
+        watchProgress: this.getTimestamp(),
+        playbackRate: this.defaultPlayback,
+        videoId: this.id,
+        videoLength: this.lengthSeconds,
+        playlistId: this.playlistId,
+        playlistIndex: this.getPlaylistIndex(),
+        playlistReverse: this.getPlaylistReverse(),
+        playlistShuffle: this.getPlaylistShuffle(),
+        playlistLoop: this.getPlaylistLoop()
+      })
+    },
+
+    toggleSave: function () {
+      if (this.inFavoritesPlaylist) {
+        this.removeFromPlaylist()
+      } else {
+        this.addToPlaylist()
+      }
+    },
+
+    toggleCast: function() {
+
+      //This sets the video url to the current video being watched
+      var videoURL = "https://youtube.com/watch?v=" + this.id;
+
+      var dropdown = document.getElementById("myDropdown");
+      dropdown.innerHTML = "";
+
+      //This toggles the dropdown on and off when it's selected
+      if (dropdown.style.display == "flex") {
+        dropdown.style.display = "none";
+        return;
+      }
+
+      if (client.devices.length > 0) {
+        // Populate the dropdown if there are devices available
+        client.devices.forEach(function(device) {
+          var btn = document.createElement("div");
+          btn.innerHTML = String(device.friendlyName);
+          btn.onclick = function() {
+            chooseCast(device.friendlyName, videoURL);
+          };
+          btn.style.backgroundColor = "#262626";
+          btn.style.boxShadow = "0 1px 2px rgb(0 0 0 / 50%)";
+          btn.style.display = "inline";
+          btn.style.fontSize = "13px";
+          btn.style.listStyle = "none";
+          btn.style.marginTop = "0px";
+          btn.style.height = "30px";
+          btn.style.textAlign = "center";
+          btn.style.userSelect = "none";
+          btn.style.zIndex = "3";
+          btn.style.color = "#ddd";
+          dropdown.appendChild(btn);
+        });
+
+        // Show the dropdown
+        dropdown.style.display = "flex";
+      } else {
+        // Hide the dropdown if there are no devices available
+        var btn = document.createElement("div");
+        btn.innerHTML = String("Sorry, no devices found");
+        btn.style.backgroundColor = "#262626";
+        btn.style.boxShadow = "0 1px 2px rgb(0 0 0 / 50%)";
+        btn.style.display = "inline";
+        btn.style.fontSize = "13px";
+        btn.style.listStyle = "none";
+        btn.style.marginTop = "0px";
+        btn.style.height = "30px";
+        btn.style.textAlign = "center";
+        btn.style.userSelect = "none";
+        btn.style.zIndex = "3";
+        btn.style.color = "#ddd";
+        dropdown.appendChild(btn);
+
+        dropdown.style.display = "flex";
+      }
+    },
+
+    handleSubscription: function () {
+      if (this.channelId === '') {
+        return
+      }
+
+      const currentProfile = JSON.parse(JSON.stringify(this.activeProfile))
+      const primaryProfile = JSON.parse(JSON.stringify(this.profileList[0]))
+
+      if (this.isSubscribed) {
+        currentProfile.subscriptions = currentProfile.subscriptions.filter((channel) => {
+          return channel.id !== this.channelId
+        })
+
+        this.updateProfile(currentProfile)
+        showToast(this.$t('Channel.Channel has been removed from your subscriptions'))
+
+        if (this.activeProfile._id === MAIN_PROFILE_ID) {
+          // Check if a subscription exists in a different profile.
+          // Remove from there as well.
+          let duplicateSubscriptions = 0
+
+          this.profileList.forEach((profile) => {
+            if (profile._id === MAIN_PROFILE_ID) {
+              return
+            }
+            const parsedProfile = JSON.parse(JSON.stringify(profile))
+            const index = parsedProfile.subscriptions.findIndex((channel) => {
+              return channel.id === this.channelId
+            })
+
+            if (index !== -1) {
+              duplicateSubscriptions++
+
+              parsedProfile.subscriptions = parsedProfile.subscriptions.filter((x) => {
+                return x.id !== this.channelId
+              })
+
+              this.updateProfile(parsedProfile)
+            }
+          })
+
+          if (duplicateSubscriptions > 0) {
+            const message = this.$t('Channel.Removed subscription from {count} other channel(s)', { count: duplicateSubscriptions })
+            showToast(message)
+          }
+        }
+      } else {
+        const subscription = {
+          id: this.channelId,
+          name: this.channelName,
+          thumbnail: this.channelThumbnail
+        }
+        currentProfile.subscriptions.push(subscription)
+
+        this.updateProfile(currentProfile)
+        showToast(this.$t('Channel.Added channel to your subscriptions'))
+
+        if (this.activeProfile._id !== MAIN_PROFILE_ID) {
+          const index = primaryProfile.subscriptions.findIndex((channel) => {
+            return channel.id === this.channelId
+          })
+
+          if (index === -1) {
+            primaryProfile.subscriptions.push(subscription)
+            this.updateProfile(primaryProfile)
+          }
+        }
+      }
+    },
+
+    handleFormatChange: function (format) {
+      switch (format) {
+        case 'dash':
+          this.$parent.enableDashFormat()
+          break
+        case 'legacy':
+          this.$parent.enableLegacyFormat()
+          break
+        case 'audio':
+          this.$parent.enableAudioFormat()
+          break
+      }
+    },
+
+    handleDownload: function (index) {
+      const selectedDownloadLinkOption = this.downloadLinkOptions[index]
+      const url = selectedDownloadLinkOption.value
+      const linkName = selectedDownloadLinkOption.label
+      const extension = this.grabExtensionFromUrl(linkName)
+
+      if (this.downloadBehavior === 'open') {
+        openExternalLink(url)
+      } else {
+        this.downloadMedia({
+          url: url,
+          title: this.title,
+          extension: extension
+        })
+      }
+    },
+
+    grabExtensionFromUrl: function (url) {
+      const regex = /\/(\w*)/i
+      const group = url.match(regex)
+      if (group.length === 0) {
+        return ''
+      }
+      return group[1]
+    },
+
+    addToPlaylist: function () {
+      const videoData = {
+        videoId: this.id,
+        title: this.title,
+        author: this.channelName,
+        authorId: this.channelId,
+        published: '',
+        description: this.description,
+        viewCount: this.viewCount,
+        lengthSeconds: this.lengthSeconds,
+        timeAdded: new Date().getTime(),
+        isLive: false,
+        paid: false,
+        type: 'video'
+      }
+
+      const payload = {
+        playlistName: 'Favorites',
+        videoData: videoData
+      }
+
+      this.addVideo(payload)
+
+      showToast(this.$t('Video.Video has been saved'))
+    },
+
+    removeFromPlaylist: function () {
+      const payload = {
+        playlistName: 'Favorites',
+        videoId: this.id
+      }
+
+      this.removeVideo(payload)
+
+      showToast(this.$t('Video.Video has been removed from your saved list'))
+    },
+
+    ...mapActions([
+      'openInExternalPlayer',
+      'updateProfile',
+      'addVideo',
+      'removeVideo',
+      'downloadMedia'
+    ])
+  }
+})
