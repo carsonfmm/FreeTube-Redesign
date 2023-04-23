@@ -1,0 +1,3683 @@
+[
+    [
+      "invidious.privacydev.net",
+      {
+        "flag": "🇳🇱",
+        "region": "NL",
+        "stats": {
+          "version": "2.0",
+          "software": {
+            "name": "invidious",
+            "version": "2023.02.19-b287ddc5",
+            "branch": "master"
+          },
+          "openRegistrations": true,
+          "usage": {
+            "users": {
+              "total": 108,
+              "activeHalfyear": 108,
+              "activeMonth": 108
+            }
+          },
+          "metadata": {
+            "updatedAt": 1679336701,
+            "lastChannelRefreshedAt": 1679336701
+          }
+        },
+        "cors": true,
+        "api": true,
+        "type": "https",
+        "uri": "https://invidious.privacydev.net",
+        "monitor": {
+          "monitorId": 792858945,
+          "createdAt": 1665731512,
+          "statusClass": "success",
+          "name": "invidious.privacydev.net",
+          "url": null,
+          "type": "HTTP(s)",
+          "dailyRatios": [
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "99.520",
+              "label": "warning"
+            },
+            {
+              "ratio": "98.506",
+              "label": "warning"
+            },
+            {
+              "ratio": "87.883",
+              "label": "warning"
+            },
+            {
+              "ratio": "99.654",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "99.653",
+              "label": "warning"
+            },
+            {
+              "ratio": "99.306",
+              "label": "warning"
+            },
+            {
+              "ratio": "98.957",
+              "label": "warning"
+            },
+            {
+              "ratio": "98.265",
+              "label": "warning"
+            },
+            {
+              "ratio": "99.304",
+              "label": "warning"
+            },
+            {
+              "ratio": "99.641",
+              "label": "warning"
+            },
+            {
+              "ratio": "98.958",
+              "label": "warning"
+            },
+            {
+              "ratio": "98.958",
+              "label": "warning"
+            },
+            {
+              "ratio": "99.653",
+              "label": "warning"
+            },
+            {
+              "ratio": "99.653",
+              "label": "warning"
+            },
+            {
+              "ratio": "99.654",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "98.979",
+              "label": "warning"
+            },
+            {
+              "ratio": "97.015",
+              "label": "warning"
+            },
+            {
+              "ratio": "97.203",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "99.654",
+              "label": "warning"
+            },
+            {
+              "ratio": "99.315",
+              "label": "warning"
+            },
+            {
+              "ratio": "97.917",
+              "label": "warning"
+            },
+            {
+              "ratio": "98.251",
+              "label": "warning"
+            },
+            {
+              "ratio": "95.466",
+              "label": "warning"
+            },
+            {
+              "ratio": "97.595",
+              "label": "warning"
+            },
+            {
+              "ratio": "97.919",
+              "label": "warning"
+            },
+            {
+              "ratio": "96.421",
+              "label": "warning"
+            },
+            {
+              "ratio": "96.525",
+              "label": "warning"
+            },
+            {
+              "ratio": "96.911",
+              "label": "warning"
+            },
+            {
+              "ratio": "70.358",
+              "label": "warning"
+            },
+            {
+              "ratio": "98.612",
+              "label": "warning"
+            },
+            {
+              "ratio": "99.331",
+              "label": "warning"
+            },
+            {
+              "ratio": "98.611",
+              "label": "warning"
+            },
+            {
+              "ratio": "98.964",
+              "label": "warning"
+            },
+            {
+              "ratio": "97.361",
+              "label": "warning"
+            },
+            {
+              "ratio": "96.942",
+              "label": "warning"
+            },
+            {
+              "ratio": "97.947",
+              "label": "warning"
+            },
+            {
+              "ratio": "98.959",
+              "label": "warning"
+            },
+            {
+              "ratio": "99.653",
+              "label": "warning"
+            },
+            {
+              "ratio": "99.022",
+              "label": "warning"
+            },
+            {
+              "ratio": "98.958",
+              "label": "warning"
+            },
+            {
+              "ratio": "98.958",
+              "label": "warning"
+            },
+            {
+              "ratio": "98.949",
+              "label": "warning"
+            },
+            {
+              "ratio": "97.241",
+              "label": "warning"
+            },
+            {
+              "ratio": "97.913",
+              "label": "warning"
+            },
+            {
+              "ratio": "98.255",
+              "label": "warning"
+            },
+            {
+              "ratio": "97.193",
+              "label": "warning"
+            },
+            {
+              "ratio": "97.697",
+              "label": "warning"
+            },
+            {
+              "ratio": "98.337",
+              "label": "warning"
+            },
+            {
+              "ratio": "99.306",
+              "label": "warning"
+            },
+            {
+              "ratio": "97.895",
+              "label": "warning"
+            },
+            {
+              "ratio": "98.963",
+              "label": "warning"
+            },
+            {
+              "ratio": "99.064",
+              "label": "warning"
+            },
+            {
+              "ratio": "97.560",
+              "label": "warning"
+            },
+            {
+              "ratio": "97.929",
+              "label": "warning"
+            },
+            {
+              "ratio": "98.957",
+              "label": "warning"
+            },
+            {
+              "ratio": "99.306",
+              "label": "warning"
+            },
+            {
+              "ratio": "98.345",
+              "label": "warning"
+            },
+            {
+              "ratio": "97.340",
+              "label": "warning"
+            },
+            {
+              "ratio": "97.219",
+              "label": "warning"
+            },
+            {
+              "ratio": "96.492",
+              "label": "warning"
+            },
+            {
+              "ratio": "97.212",
+              "label": "warning"
+            },
+            {
+              "ratio": "97.914",
+              "label": "warning"
+            },
+            {
+              "ratio": "98.954",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "99.039",
+              "label": "warning"
+            },
+            {
+              "ratio": "98.611",
+              "label": "warning"
+            },
+            {
+              "ratio": "99.314",
+              "label": "warning"
+            },
+            {
+              "ratio": "99.653",
+              "label": "warning"
+            },
+            {
+              "ratio": "99.302",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "99.302",
+              "label": "warning"
+            },
+            {
+              "ratio": "99.652",
+              "label": "warning"
+            },
+            {
+              "ratio": "99.303",
+              "label": "warning"
+            },
+            {
+              "ratio": "99.304",
+              "label": "warning"
+            },
+            {
+              "ratio": "99.653",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "99.656",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "99.654",
+              "label": "warning"
+            },
+            {
+              "ratio": "99.654",
+              "label": "warning"
+            }
+          ],
+          "90dRatio": {
+            "ratio": "98.339",
+            "label": "warning"
+          },
+          "30dRatio": {
+            "ratio": "98.991",
+            "label": "warning"
+          }
+        }
+      }
+    ],
+    [
+      "vid.puffyan.us",
+      {
+        "flag": "🇺🇸",
+        "region": "US",
+        "stats": {
+          "version": "2.0",
+          "software": {
+            "name": "invidious",
+            "version": "2023.03.15-26ea676",
+            "branch": "master"
+          },
+          "openRegistrations": true,
+          "usage": {
+            "users": {
+              "total": 10337,
+              "activeHalfyear": 3294,
+              "activeMonth": 952
+            }
+          },
+          "metadata": {
+            "updatedAt": 1679173693,
+            "lastChannelRefreshedAt": 1679173693
+          }
+        },
+        "cors": true,
+        "api": true,
+        "type": "https",
+        "uri": "https://vid.puffyan.us",
+        "monitor": {
+          "monitorId": 786957161,
+          "createdAt": 1610988560,
+          "statusClass": "success",
+          "name": "vid.puffyan.us",
+          "url": null,
+          "type": "HTTP(s)",
+          "dailyRatios": [
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "98.948",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "98.606",
+              "label": "warning"
+            },
+            {
+              "ratio": "96.861",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "99.656",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "99.307",
+              "label": "warning"
+            },
+            {
+              "ratio": "99.649",
+              "label": "warning"
+            },
+            {
+              "ratio": "99.648",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "99.306",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "99.446",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "99.649",
+              "label": "warning"
+            },
+            {
+              "ratio": "99.650",
+              "label": "warning"
+            },
+            {
+              "ratio": "99.649",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "99.306",
+              "label": "warning"
+            },
+            {
+              "ratio": "99.419",
+              "label": "warning"
+            },
+            {
+              "ratio": "98.948",
+              "label": "warning"
+            },
+            {
+              "ratio": "98.957",
+              "label": "warning"
+            },
+            {
+              "ratio": "99.648",
+              "label": "warning"
+            },
+            {
+              "ratio": "99.303",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "99.653",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "99.652",
+              "label": "warning"
+            },
+            {
+              "ratio": "99.650",
+              "label": "warning"
+            },
+            {
+              "ratio": "99.650",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "99.645",
+              "label": "warning"
+            },
+            {
+              "ratio": "99.655",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "99.301",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "99.646",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "99.648",
+              "label": "warning"
+            },
+            {
+              "ratio": "98.950",
+              "label": "warning"
+            },
+            {
+              "ratio": "99.748",
+              "label": "warning"
+            },
+            {
+              "ratio": "99.653",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "98.953",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "99.654",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "99.289",
+              "label": "warning"
+            },
+            {
+              "ratio": "99.074",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            }
+          ],
+          "90dRatio": {
+            "ratio": "99.753",
+            "label": "warning"
+          },
+          "30dRatio": {
+            "ratio": "99.637",
+            "label": "warning"
+          }
+        }
+      }
+    ],
+    [
+      "watch.thekitty.zone",
+      {
+        "flag": "🇩🇪",
+        "region": "DE",
+        "stats": {
+          "version": "2.0",
+          "software": {
+            "name": "invidious",
+            "version": "2023.03.08-7d3d545",
+            "branch": "master"
+          },
+          "openRegistrations": true,
+          "usage": {
+            "users": {
+              "total": 3793,
+              "activeHalfyear": 1232,
+              "activeMonth": 83
+            }
+          },
+          "metadata": {
+            "updatedAt": 1679173724,
+            "lastChannelRefreshedAt": 1679173722
+          }
+        },
+        "cors": true,
+        "api": true,
+        "type": "https",
+        "uri": "https://watch.thekitty.zone",
+        "monitor": {
+          "monitorId": 788946187,
+          "createdAt": 1629039980,
+          "statusClass": "success",
+          "name": "watch.thekitty.zone",
+          "url": null,
+          "type": "HTTP(s)",
+          "dailyRatios": [
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "99.306",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "99.307",
+              "label": "warning"
+            },
+            {
+              "ratio": "14.408",
+              "label": "warning"
+            },
+            {
+              "ratio": "0.000",
+              "label": "warning"
+            },
+            {
+              "ratio": "60.266",
+              "label": "warning"
+            },
+            {
+              "ratio": "98.962",
+              "label": "warning"
+            },
+            {
+              "ratio": "97.598",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "65.709",
+              "label": "warning"
+            },
+            {
+              "ratio": "76.779",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "94.573",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "98.265",
+              "label": "warning"
+            },
+            {
+              "ratio": "93.531",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "93.875",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "94.920",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "99.654",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "99.307",
+              "label": "warning"
+            },
+            {
+              "ratio": "99.714",
+              "label": "warning"
+            },
+            {
+              "ratio": "99.306",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "99.719",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "95.486",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "99.449",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            }
+          ],
+          "90dRatio": {
+            "ratio": "96.446",
+            "label": "warning"
+          },
+          "30dRatio": {
+            "ratio": "89.572",
+            "label": "warning"
+          }
+        }
+      }
+    ],
+    [
+      "invidious.flokinet.to",
+      {
+        "flag": "🇷🇴",
+        "region": "RO",
+        "stats": {
+          "version": "2.0",
+          "software": {
+            "name": "invidious",
+            "version": "2023.03.07-d79d6f38",
+            "branch": "master"
+          },
+          "openRegistrations": true,
+          "usage": {
+            "users": {
+              "total": 1399,
+              "activeHalfyear": 692,
+              "activeMonth": 173
+            }
+          },
+          "metadata": {
+            "updatedAt": 1679173682,
+            "lastChannelRefreshedAt": 1679173682
+          }
+        },
+        "cors": true,
+        "api": true,
+        "type": "https",
+        "uri": "https://invidious.flokinet.to",
+        "monitor": {
+          "monitorId": 790271084,
+          "createdAt": 1641559360,
+          "statusClass": "success",
+          "name": "invidious.flokinet.to",
+          "url": null,
+          "type": "HTTP(s)",
+          "dailyRatios": [
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "98.959",
+              "label": "warning"
+            },
+            {
+              "ratio": "94.793",
+              "label": "warning"
+            },
+            {
+              "ratio": "90.720",
+              "label": "warning"
+            },
+            {
+              "ratio": "98.265",
+              "label": "warning"
+            },
+            {
+              "ratio": "97.571",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "96.530",
+              "label": "warning"
+            },
+            {
+              "ratio": "96.529",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "97.569",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "98.265",
+              "label": "warning"
+            },
+            {
+              "ratio": "95.140",
+              "label": "warning"
+            },
+            {
+              "ratio": "96.655",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "94.447",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "96.182",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "99.653",
+              "label": "warning"
+            },
+            {
+              "ratio": "97.513",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "99.653",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "99.654",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "98.720",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "98.694",
+              "label": "warning"
+            },
+            {
+              "ratio": "99.657",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "95.826",
+              "label": "warning"
+            },
+            {
+              "ratio": "99.466",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "97.222",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "98.735",
+              "label": "warning"
+            },
+            {
+              "ratio": "98.993",
+              "label": "warning"
+            },
+            {
+              "ratio": "98.262",
+              "label": "warning"
+            },
+            {
+              "ratio": "99.307",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "97.074",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "98.956",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "99.654",
+              "label": "warning"
+            },
+            {
+              "ratio": "66.334",
+              "label": "warning"
+            },
+            {
+              "ratio": "58.243",
+              "label": "warning"
+            },
+            {
+              "ratio": "97.917",
+              "label": "warning"
+            },
+            {
+              "ratio": "94.187",
+              "label": "warning"
+            },
+            {
+              "ratio": "98.612",
+              "label": "warning"
+            },
+            {
+              "ratio": "98.958",
+              "label": "warning"
+            },
+            {
+              "ratio": "97.221",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "97.222",
+              "label": "warning"
+            },
+            {
+              "ratio": "97.969",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "99.650",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            }
+          ],
+          "90dRatio": {
+            "ratio": "98.166",
+            "label": "warning"
+          },
+          "30dRatio": {
+            "ratio": "98.281",
+            "label": "warning"
+          }
+        }
+      }
+    ],
+    [
+      "inv.bp.projectsegfau.lt",
+      {
+        "flag": "🇱🇺",
+        "region": "LU",
+        "stats": {
+          "version": "2.0",
+          "software": {
+            "name": "invidious",
+            "version": "2023.03.15-26ea676",
+            "branch": "master"
+          },
+          "openRegistrations": true,
+          "usage": {
+            "users": {
+              "total": 1332,
+              "activeHalfyear": 918,
+              "activeMonth": 176
+            }
+          },
+          "metadata": {
+            "updatedAt": 1679173711,
+            "lastChannelRefreshedAt": 1679172208
+          }
+        },
+        "cors": true,
+        "api": true,
+        "type": "https",
+        "uri": "https://inv.bp.projectsegfau.lt",
+        "monitor": {
+          "monitorId": 791633710,
+          "createdAt": 1651591791,
+          "statusClass": "success",
+          "name": "inv.bp.projectsegfau.lt",
+          "url": null,
+          "type": "HTTP(s)",
+          "dailyRatios": [
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "99.672",
+              "label": "warning"
+            },
+            {
+              "ratio": "97.918",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "98.612",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "97.663",
+              "label": "warning"
+            },
+            {
+              "ratio": "48.519",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "99.679",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "99.671",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "81.947",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "92.708",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "98.192",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "90.278",
+              "label": "warning"
+            },
+            {
+              "ratio": "84.375",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "95.419",
+              "label": "warning"
+            }
+          ],
+          "90dRatio": {
+            "ratio": "98.718",
+            "label": "warning"
+          },
+          "30dRatio": {
+            "ratio": "99.873",
+            "label": "warning"
+          }
+        }
+      }
+    ],
+    [
+      "inv.odyssey346.dev",
+      {
+        "flag": "🇫🇷",
+        "region": "FR",
+        "stats": {
+          "version": "2.0",
+          "software": {
+            "name": "invidious",
+            "version": "2023.03.15-26ea676",
+            "branch": "master"
+          },
+          "openRegistrations": true,
+          "usage": {
+            "users": {
+              "total": 887,
+              "activeHalfyear": 884,
+              "activeMonth": 242
+            }
+          },
+          "metadata": {
+            "updatedAt": 1679173687,
+            "lastChannelRefreshedAt": 1679173589
+          }
+        },
+        "cors": true,
+        "api": true,
+        "type": "https",
+        "uri": "https://inv.odyssey346.dev",
+        "monitor": {
+          "monitorId": 792576736,
+          "createdAt": 1661871577,
+          "statusClass": "success",
+          "name": "inv.odyssey346.dev",
+          "url": null,
+          "type": "HTTP(s)",
+          "dailyRatios": [
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "58.811",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "91.668",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "99.654",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "86.584",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "99.784",
+              "label": "warning"
+            },
+            {
+              "ratio": "97.223",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "22.357",
+              "label": "warning"
+            },
+            {
+              "ratio": "40.969",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "49.236",
+              "label": "warning"
+            },
+            {
+              "ratio": "87.570",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "88.889",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            }
+          ],
+          "90dRatio": {
+            "ratio": "96.919",
+            "label": "warning"
+          },
+          "30dRatio": {
+            "ratio": "98.627",
+            "label": "warning"
+          }
+        }
+      }
+    ],
+    [
+      "invidious.sethforprivacy.com",
+      {
+        "flag": "🇨🇦",
+        "region": "CA",
+        "stats": {
+          "version": "2.0",
+          "software": {
+            "name": "invidious",
+            "version": "2023.03.15-26ea676",
+            "branch": "master"
+          },
+          "openRegistrations": true,
+          "usage": {
+            "users": {
+              "total": 675,
+              "activeHalfyear": 675,
+              "activeMonth": 327
+            }
+          },
+          "metadata": {
+            "updatedAt": 1679173700,
+            "lastChannelRefreshedAt": 1679150018
+          }
+        },
+        "cors": true,
+        "api": true,
+        "type": "https",
+        "uri": "https://invidious.sethforprivacy.com",
+        "monitor": {
+          "monitorId": 793417139,
+          "createdAt": 1673031581,
+          "statusClass": "success",
+          "name": "invidious.sethforprivacy.com",
+          "url": null,
+          "type": "HTTP(s)",
+          "dailyRatios": [
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "99.653",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "99.753",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "99.778",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "99.778",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "97.698",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "0.000",
+              "label": "black"
+            },
+            {
+              "ratio": "0.000",
+              "label": "black"
+            },
+            {
+              "ratio": "0.000",
+              "label": "black"
+            },
+            {
+              "ratio": "0.000",
+              "label": "black"
+            },
+            {
+              "ratio": "0.000",
+              "label": "black"
+            },
+            {
+              "ratio": "0.000",
+              "label": "black"
+            },
+            {
+              "ratio": "0.000",
+              "label": "black"
+            },
+            {
+              "ratio": "0.000",
+              "label": "black"
+            },
+            {
+              "ratio": "0.000",
+              "label": "black"
+            },
+            {
+              "ratio": "0.000",
+              "label": "black"
+            },
+            {
+              "ratio": "0.000",
+              "label": "black"
+            },
+            {
+              "ratio": "0.000",
+              "label": "black"
+            },
+            {
+              "ratio": "0.000",
+              "label": "black"
+            },
+            {
+              "ratio": "0.000",
+              "label": "black"
+            },
+            {
+              "ratio": "0.000",
+              "label": "black"
+            },
+            {
+              "ratio": "0.000",
+              "label": "black"
+            },
+            {
+              "ratio": "0.000",
+              "label": "black"
+            },
+            {
+              "ratio": "0.000",
+              "label": "black"
+            }
+          ],
+          "90dRatio": {
+            "ratio": "99.953",
+            "label": "warning"
+          },
+          "30dRatio": {
+            "ratio": "99.988",
+            "label": "warning"
+          }
+        }
+      }
+    ],
+    [
+      "invidious.baczek.me",
+      {
+        "flag": "🇵🇱",
+        "region": "PL",
+        "stats": {
+          "version": "2.0",
+          "software": {
+            "name": "invidious",
+            "version": "2023.03.15-26ea676",
+            "branch": "master"
+          },
+          "openRegistrations": true,
+          "usage": {
+            "users": {
+              "total": 557,
+              "activeHalfyear": 556,
+              "activeMonth": 189
+            }
+          },
+          "metadata": {
+            "updatedAt": 1679173691,
+            "lastChannelRefreshedAt": 1679173690
+          }
+        },
+        "cors": true,
+        "api": true,
+        "type": "https",
+        "uri": "https://invidious.baczek.me",
+        "monitor": {
+          "monitorId": 792576727,
+          "createdAt": 1661871485,
+          "statusClass": "success",
+          "name": "invidious.baczek.me",
+          "url": null,
+          "type": "HTTP(s)",
+          "dailyRatios": [
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "98.958",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            }
+          ],
+          "90dRatio": {
+            "ratio": "99.988",
+            "label": "warning"
+          },
+          "30dRatio": {
+            "ratio": "100.00",
+            "label": "success"
+          }
+        }
+      }
+    ],
+    [
+      "yt.funami.tech",
+      {
+        "flag": "🇰🇷",
+        "region": "KR",
+        "stats": {
+          "version": "2.0",
+          "software": {
+            "name": "invidious",
+            "version": "2023.03.15-26ea676",
+            "branch": "master"
+          },
+          "openRegistrations": true,
+          "usage": {
+            "users": {
+              "total": 457,
+              "activeHalfyear": 457,
+              "activeMonth": 194
+            }
+          },
+          "metadata": {
+            "updatedAt": 1679173745,
+            "lastChannelRefreshedAt": 1679173745
+          }
+        },
+        "cors": true,
+        "api": true,
+        "type": "https",
+        "uri": "https://yt.funami.tech",
+        "monitor": {
+          "monitorId": 792859086,
+          "createdAt": 1665733360,
+          "statusClass": "success",
+          "name": "yt.funami.tech",
+          "url": null,
+          "type": "HTTP(s)",
+          "dailyRatios": [
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "83.808",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "99.806",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "98.808",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "96.290",
+              "label": "warning"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            },
+            {
+              "ratio": "100.00",
+              "label": "success"
+            }
+          ],
+          "90dRatio": {
+            "ratio": "99.763",
+            "label": "warning"
+          },
+          "30dRatio": {
+            "ratio": "99.460",
+            "label": "warning"
+          }
+        }
+      }
+    ]
+]
