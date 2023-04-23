@@ -1,0 +1,189 @@
+.card {
+  position: relative;
+  width: 85%;
+  margin: 0 auto 20px;
+  box-sizing: border-box;
+}
+
+.channelDetails {
+  padding: 0;
+}
+
+.channelBannerContainer {
+  background: center / cover no-repeat var(--banner-url, transparent);
+  height: 13vw;
+  min-height: 110px;
+  max-height: 32vh;
+  width: 100%;
+}
+
+.channelBannerContainer.default {
+  background-image: url("../../assets/img/defaultBanner.png");
+  background-repeat: repeat;
+  background-size: contain;
+}
+
+.channelInfoContainer {
+  position: relative;
+  background-color: var(--card-bg-color);
+  margin-top: 10px;
+  padding: 0 16px;
+}
+
+.channelInfo {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.channelThumbnail {
+  width: 100px;
+  height: 100px;
+  border-radius: 200px 200px 200px 200px;
+  -webkit-border-radius: 200px 200px 200px 200px;
+}
+
+.channelName {
+  font-weight: bold;
+  width: 100%;
+  font-size: 25px;
+}
+
+.channelSubCount {
+  color: var(--tertiary-text-color);
+  top: 50px;
+  left: 120px;
+}
+
+.channelInfoActionsContainer {
+  display: flex;
+  min-width: 230px;
+  justify-content: space-between;
+}
+
+.subscribeButton {
+  height: 50px;
+  min-width: 150px;
+  align-self: center;
+  margin-bottom: 10px;
+}
+
+.shareIcon {
+  align-items: center;
+}
+
+.channelSearch {
+  width: 220px;
+  margin-left: auto;
+  align-self: flex-end;
+  flex: 1 1 0%;
+}
+
+.sortSelect {
+  margin-left: auto;
+}
+
+.channelInfoTabs {
+  position: relative;
+  width: 100%;
+  height: auto;
+  justify-content: unset;
+  gap: 32px;
+  padding: .3em 0;
+}
+
+.tabs {
+  display: flex;
+  flex: 0 1 33%;
+}
+
+.tab {
+  padding: 15px;
+  font-size: 15px;
+  cursor: pointer;
+  flex: 1 1 0%;
+  align-self: flex-end;
+  text-align: center;
+  color: var(--tertiary-text-color);
+  border-bottom: 3px solid transparent;
+}
+
+.tab:hover,
+.tab:focus {
+  font-weight: bold;
+  border-bottom: 3px solid var(--tertiary-text-color);
+}
+
+.selectedTab,
+.selectedTab:hover {
+  color: var(--primary-text-color);
+  border-bottom: 3px solid var(--primary-color);
+  font-weight: bold;
+  box-sizing: border-box;
+}
+
+.aboutTab {
+  background-color: var(--card-bg-color);
+  position: relative;
+  margin-top: 0px;
+  padding: 10px;
+  z-index: 1;
+}
+
+.aboutInfo {
+  font-family: 'Roboto', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-size: 17px;
+  white-space: pre-wrap;
+}
+
+.channelSearch {
+  margin-top: 10px;
+  max-width: 250px;
+}
+
+.elementListLoading {
+  margin-top: 200px;
+}
+
+.message {
+  color: var(--tertiary-text-color);
+}
+
+.getNextPage {
+  background-color: var(--search-bar-color);
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 16px;
+}
+
+.thumbnailContainer {
+  display: flex
+}
+
+.channelLineContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 1em;
+}
+
+.channelLineContainer h1,
+.channelLineContainer p {
+  margin: 0;
+}
+
+@media only screen and (max-width: 800px) {
+  .channelInfoTabs {
+    height: auto;
+    flex-flow: column-reverse;
+  }
+
+  .channelSearch {
+    width: 100%;
+    max-width: none;
+  }
+}
